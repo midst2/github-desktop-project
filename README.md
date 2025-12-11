@@ -1,2 +1,2 @@
 # github-desktop-project
- sdasd
+example of creating project using github-desktop
