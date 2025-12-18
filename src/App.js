@@ -1,10 +1,13 @@
-import { Table } from "./Table";
-import "./style.css";
-
 function App() {
-  return (
-    <Table/>
-  );
+  const divStyle = {
+    color: "red",
+    backgroundColor: "powderblue",
+    fontSize: "larger",
+    padding: "3px",
+  };
+  return <>
+    <div style={divStyle}>Hello React</div>
+  </>;
 }
 
 export default App;

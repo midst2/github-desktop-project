@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react'
 
-export const Table = () => {
+const Table = () => {
   return (
     <>
       <table border="1">
@@ -18,5 +18,7 @@ export const Table = () => {
         </tr>
       </table>
     </>
-  );
-};
+  )
+}
+
+export default Table
