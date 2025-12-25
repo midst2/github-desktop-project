@@ -1,13 +1,7 @@
+import { Content, Footer, Header } from "./func-component";
+
 function App() {
-  const divStyle = {
-    color: "red",
-    backgroundColor: "powderblue",
-    fontSize: "larger",
-    padding: "3px",
-  };
-  return <>
-    <div style={divStyle}>Hello React</div>
-  </>;
+  return [<Header/>, <Content/>, <Footer/>]
 }
 
 export default App;
