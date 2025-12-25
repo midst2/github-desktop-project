@@ -29,7 +29,7 @@ export const Content = () => {
 export const Footer = () => {
   return (
     <div style={{textAlign: 'center'}}>
-        &copy; {new Date().getFullYear} all rights reserved.
+        &copy; {new Date().getFullYear()} all rights reserved.
     </div>
   )
 }
